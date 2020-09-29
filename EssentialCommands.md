@@ -394,7 +394,7 @@ Regular Expressions
 |   [...]   |   Explicit set of characters to match    |   a[bB]c   |        abc,aBc        |
 | [a-z0-9]  |   One lower case characters or number    | a[a-z0-9]c |        aac,a1c        |
 |   (...)   |           Group of characters            |  (abc){2}  |        abcabc         |
-|     *     | Null or more of the preceding characters |    a*bc    | bc, abc, aabc, aaaabc |
+|     *     | Null or more of the preceding characters |    a*bc    | abc, aabc, aaaabc     |
 |     +     |  One or more of the preceding character  |    a+bc    |       abc, aabc       |
 |     ?     |  Null or one of the preceding character  |    a?bc    |        bc, abc        |
 |    ^$     |               Empty string               |            |                       |
